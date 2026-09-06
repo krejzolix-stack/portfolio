@@ -137,11 +137,11 @@ section {
 .projects {
     display: grid;
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
     gap: 30px;
 
-    max-width: 1100px;
+    max-width: 1400px;
 
     margin: auto;
 }
@@ -218,7 +218,154 @@ section {
     font-weight: bold;
     line-height: 1.6;
 }
+.taskflow-image {
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #1f2937
+        );
 
+    position: relative;
+}
+
+.taskflow-image::after {
+    content: "TaskFlow\A+ Zadanie   ✓ Gotowe";
+    white-space: pre;
+
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.weatherdash-image {
+    background:
+        linear-gradient(
+            135deg,
+            #0ea5e9,
+            #38bdf8
+        );
+
+    position: relative;
+}
+
+.weatherdash-image::after {
+    content: "WeatherDash\A ☀️  14°  🌤️";
+    white-space: pre;
+
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.budgetflow-image {
+    background:
+        linear-gradient(
+            135deg,
+            #0f172a,
+            #1e293b
+        );
+
+    position: relative;
+}
+
+.budgetflow-image::after {
+    content: "BudgetFlow\A +3500 zł   −3100 zł\A Saldo: 400 zł";
+    white-space: pre;
+
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.stattrack-image {
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb,
+            #60a5fa
+        );
+
+    position: relative;
+}
+
+.stattrack-image::after {
+    content: "StatTrack\A Średnia: 13\A Min: 9   Max: 18";
+    white-space: pre;
+
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+.clientboard-image {
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #334155
+        );
+
+    position: relative;
+}
+
+.clientboard-image::after {
+    content: "ClientBoard\A Nowy • W trakcie • Gotowe";
+    white-space: pre;
+
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.7;
+}
 .project-content {
     padding: 30px;
 }
@@ -256,7 +403,7 @@ section {
 .skills {
     display: grid;
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
     gap: 25px;
 
