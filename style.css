@@ -520,3 +520,24 @@ footer {
     transform: translateY(-2px);
     opacity: 0.9;
 }
+
+.contact-box a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 24px;
+
+    background: white;
+    color: #111111;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+.contact-box a:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
