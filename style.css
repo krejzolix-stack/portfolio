@@ -542,3 +542,64 @@ footer {
     transform: translateY(-2px);
     opacity: 0.85;
 }
+
+.about {
+    background: #151515;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about .section-small {
+    display: block;
+    margin: 0 0 14px;
+}
+
+.about .section-title {
+    margin: 0 0 32px;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 720px;
+    margin: 0 auto 32px;
+
+    text-align: center;
+    color: #b8b8b8;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100%;
+    max-width: 720px;
+
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.skill {
+    min-height: 130px;
+    padding: 25px 20px;
+
+    background: #1f1f1f;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.skill strong {
+    margin: 0 0 8px;
+}
+
+.skill span {
+    margin: 0;
+}
