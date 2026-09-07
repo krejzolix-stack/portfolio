@@ -691,6 +691,13 @@ footer {
 }
 
 @media (max-width: 600px) {
+    #projekty {
+    padding-top: 35px;
+}
+
+#projekty .section-title {
+    margin-bottom: 28px;
+}
     .projects {
     width: 100%;
     padding: 0 16px;
