@@ -689,3 +689,30 @@ footer {
         margin: 0 auto;
     }
 }
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding: 18px 15px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}
