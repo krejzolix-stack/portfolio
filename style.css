@@ -400,23 +400,24 @@ section {
     background: #151515;
 }
 .about-text {
-    max-width: 760px;
-    margin: 0 auto 40px;
+    max-width: 720px;
+    margin: 0 auto 36px;
+
     text-align: center;
     color: #b8b8b8;
+
     font-size: 17px;
     line-height: 1.8;
 }
+
 .skills {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
-    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 
-    gap: 25px;
-
-    max-width: 900px;
-
-    margin: auto;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .skill {
