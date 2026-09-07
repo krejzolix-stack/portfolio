@@ -501,3 +501,22 @@ footer {
     }
 
 }
+
+.contact-button {
+    display: inline-block;
+    padding: 14px 24px;
+
+    background: white;
+    color: #111;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
