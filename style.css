@@ -619,3 +619,54 @@ footer {
     text-align: center;
     line-height: 22px;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 18px 20px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        font-size: 14px;
+    }
+
+    .hero,
+    .about,
+    .contact {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero h1,
+    .section-title {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero p,
+    .about-text,
+    .contact-box p {
+        font-size: 15px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+        gap: 24px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .skills {
+        grid-template-columns: 1fr;
+        max-width: 420px;
+    }
+
+    .contact-box {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}
