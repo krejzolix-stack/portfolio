@@ -603,3 +603,19 @@ footer {
 .skill span {
     margin: 0;
 }
+
+.skill strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.skill span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    min-height: 44px;
+
+    text-align: center;
+    line-height: 22px;
+}
