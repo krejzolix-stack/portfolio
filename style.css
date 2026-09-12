@@ -749,3 +749,91 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
+/* ===== MEBLO — FEATURED PROJECT ===== */
+
+.featured-project {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    min-height: 520px;
+    border: 1px solid #2c2c2c;
+}
+
+.featured-project .project-image {
+    min-height: 520px;
+}
+
+.featured-project .project-content {
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-project h3 {
+    font-size: 42px;
+    margin: 16px 0 20px;
+}
+
+.featured-project p {
+    max-width: 520px;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.featured-badge {
+    display: inline-block;
+    width: fit-content;
+    margin-bottom: 14px;
+    padding: 8px 13px;
+    border-radius: 100px;
+    background: #ffffff;
+    color: #111111;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.featured-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.project-button-secondary {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+.project-button-secondary:hover {
+    background: #ffffff;
+    color: #111111;
+}
+
+/* MEBLO — mobile */
+
+@media (max-width: 800px) {
+
+    .featured-project {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .featured-project .project-image {
+        min-height: 330px;
+    }
+
+    .featured-project .project-content {
+        padding: 32px 25px;
+    }
+
+    .featured-project h3 {
+        font-size: 34px;
+    }
+
+    .featured-actions {
+        flex-wrap: wrap;
+    }
+}
