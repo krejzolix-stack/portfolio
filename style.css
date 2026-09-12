@@ -743,3 +743,9 @@ footer {
         font-size: 14px;
     }
 }
+
+.meblo-image {
+    background-image: url("images/meblo.jpg");
+    background-size: cover;
+    background-position: center;
+}
